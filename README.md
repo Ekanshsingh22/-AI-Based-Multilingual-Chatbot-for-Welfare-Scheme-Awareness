@@ -54,11 +54,8 @@ nss/
 ├── app.js                         # Application controller & eligibility math
 ├── schemes.json                   # Structured welfare schemes database (10 schemes)
 ├── README.md                      # Project setup and overview (This file)
-├── user_flow_diagrams.md          # Visual persona workflow mappings (Mermaid)
 ├── pilot_test_report.md           # Field pilot study metrics & analysis
 ├── impact_projection_report.md    # 2-Page economic analysis & ROI math
-├── janseva_dashboard_mockup_...png # UI mockup visualization
-└── NSS OPEN PROJECTS 2026.pdf     # Original challenge brochure
 ```
 
 ---
