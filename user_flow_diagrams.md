@@ -78,7 +78,7 @@ P --> Q
 ---
 
 ## Persona 3: Amit Kumar (Gig Worker)
-* **Background**: 24-year-old food delivery rider in Outer Delhi. High-school graduate.
+* **Background**: 24-year-old food delivery rider in Outer Delhi. High-school graduates.
 * **Tech Literacy**: Comfortable using smartphones and apps, but has no employer health coverage or social security.
 * **Goals**: Secure a loan to buy a delivery motorcycle and establish a retirement savings fund.
 
