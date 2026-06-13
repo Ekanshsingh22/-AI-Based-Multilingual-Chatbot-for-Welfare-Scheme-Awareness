@@ -1,0 +1,8 @@
+Collecting pypdf
+  Downloading pypdf-6.13.2-py3-none-any.whl (346 kB)
+     -------------------------------------- 346.6/346.6 kB 1.4 MB/s eta 0:00:00
+Installing collected packages: pypdf
+Successfully installed pypdf-6.13.2
+
+[notice] A new release of pip is available: 23.1.2 -> 26.1.2
+[notice] To update, run: C:\Users\vanda\AppData\Local\Programs\Python\Python311\python.exe -m pip install --upgrade pip

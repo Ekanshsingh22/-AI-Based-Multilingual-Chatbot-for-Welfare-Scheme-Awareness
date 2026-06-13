@@ -1,0 +1,312 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": {
+      "en": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+      "hi": "पीएम-किसान (प्रधानमंत्री किसान सम्मान निधि)",
+      "ta": "பிஎம்-கிசான் (பிரதான் மந்திரி கிசான் சம்மன் நிதி)"
+    },
+    "description": {
+      "en": "Direct financial assistance of ₹6,000 per year for land-owning farmers, paid in three equal installments.",
+      "hi": "भूमिधारक किसानों के लिए प्रति वर्ष ₹6,000 की प्रत्यक्ष वित्तीय सहायता, जो तीन समान किस्तों में दी जाती है।",
+      "ta": "நில உரிமையாளரான விவசாயிகளுக்கு ஆண்டுக்கு ₹6,000 நேரடி நிதி உதவி, மூன்று சம தவணைகளாக வழங்கப்படும்."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 150,
+      "gender": "any",
+      "occupations": ["farmer"],
+      "max_income": 9999999,
+      "needs_land": true
+    },
+    "benefits": {
+      "en": "₹6,000 per year in bank accounts (₹2,000 every 4 months).",
+      "hi": "बैंक खातों में प्रति वर्ष ₹6,000 (हर 4 महीने में ₹2,000)।",
+      "ta": "வங்கி கணக்கில் ஆண்டுக்கு ₹6,000 (ஒவ்வொரு 4 மாதங்களுக்கும் ₹2,000)."
+    },
+    "documents": {
+      "en": ["Land Ownership Papers (Jamabandi/Patta)", "Aadhaar Card", "Bank Account Passbook", "Mobile Number Linked to Aadhaar"],
+      "hi": ["भूमि स्वामित्व के दस्तावेज (जमाबंदी/पट्टा)", "आधार कार्ड", "बैंक खाता पासबुक", "आधार से लिंक मोबाइल नंबर"],
+      "ta": ["நில உரிமை ஆவணங்கள் (பட்டா/சிட்டா)", "ஆதார் அட்டை", "வங்கி கணக்கு புத்தக நகல்", "ஆதாருடன் இணைக்கப்பட்ட கைபேசி எண்"]
+    }
+  },
+  {
+    "id": "ayushman_bharat",
+    "name": {
+      "en": "Ayushman Bharat (PM-JAY)",
+      "hi": "आयुष्मान भारत (पीएम-जन आरोग्य योजना)",
+      "ta": "ஆயுஷ்மான் பாரத் (பிஎம்-ஜேஏஒய்)"
+    },
+    "description": {
+      "en": "National health insurance scheme offering cashless secondary and tertiary care hospitalization cover.",
+      "hi": "कैशलेस माध्यमिक और तृतीयक देखभाल अस्पताल में भर्ती कवर की पेशकश करने वाली राष्ट्रीय स्वास्थ्य बीमा योजना।",
+      "ta": "இலவச மற்றும் ரொக்கமில்லா இரண்டாம் மற்றும் மூன்றாம் கட்ட மருத்துவக் காப்பீடு வழங்கும் தேசிய சுகாதாரத் திட்டம்."
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 150,
+      "gender": "any",
+      "occupations": ["farmer", "gig_worker", "domestic_worker", "unemployed", "other"],
+      "max_income": 250000,
+      "needs_land": false
+    },
+    "benefits": {
+      "en": "Free medical cover up to ₹5 Lakh per family per year at empaneled hospitals.",
+      "hi": "पैनल में शामिल अस्पतालों में प्रति वर्ष प्रति परिवार ₹5 लाख तक का मुफ्त चिकित्सा कवर।",
+      "ta": "அங்கீகரிக்கப்பட்ட மருத்துவமனைகளில் ஒரு குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் வரை இலவச மருத்துவ சிகிச்சை."
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Ration Card (BPL)", "Income Certificate", "Family Identity Document"],
+      "hi": ["आधार कार्ड", "राशन कार्ड (बीपीएल)", "आय प्रमाण पत्र", "पारिवारिक पहचान दस्तावेज"],
+      "ta": ["ஆதார் அட்டை", "குடும்ப அட்டை (வறுமைக் கோட்டிற்கு கீழ்)", "வருமான சான்றிதழ்", "குடும்ப உறுப்பினர்கள் அடையாள ஆவணம்"]
+    }
+  },
+  {
+    "id": "pmay",
+    "name": {
+      "en": "PMAY (Pradhan Mantri Awas Yojana - Housing for All)",
+      "hi": "पीएम आवास योजना (प्रधानमंत्री आवास योजना - सबके लिए आवास)",
+      "ta": "பிஎம்ஆய் (பிரதான் மந்திரி அவாஸ் யோஜனா - அனைவருக்கும் வீடு)"
+    },
+    "description": {
+      "en": "Provides financial subsidy for construction of pucca houses for poor families in rural and urban areas.",
+      "hi": "ग्रामीण और शहरी क्षेत्रों में गरीब परिवारों के लिए पक्के घरों के निर्माण के लिए वित्तीय सब्सिडी प्रदान करता है।",
+      "ta": "கிராமப்புற மற்றும் நகர்ப்புற ஏழைக் குடும்பங்கள் பக்கா வீடுகள் கட்டுவதற்கு நிதியுதவி மற்றும் மானியம் வழங்குகிறது."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 150,
+      "gender": "any",
+      "occupations": ["farmer", "gig_worker", "domestic_worker", "unemployed", "other"],
+      "max_income": 300000,
+      "needs_land": false
+    },
+    "benefits": {
+      "en": "Financial assistance of ₹1.2 Lakh (plains) to ₹1.3 Lakh (hilly areas) for house construction.",
+      "hi": "घर निर्माण के लिए ₹1.2 लाख (मैदानी) से ₹1.3 लाख (पहाड़ी क्षेत्र) की वित्तीय सहायता।",
+      "ta": "வீடு கட்ட சமவெளிப் பகுதியில் ₹1.2 லட்சமும், மலைப் பகுதியில் ₹1.3 லட்சமும் நிதி உதவி."
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Ration Card", "Affidavit declaring no pucca house in India", "Income Certificate", "Bank Account Details"],
+      "hi": ["आधार कार्ड", "राशन कार्ड", "भारत में कोई पक्का घर न होने का शपथ पत्र", "आय प्रमाण पत्र", "बैंक खाता विवरण"],
+      "ta": ["ஆதார் அட்டை", "குடும்ப அட்டை", "இந்தியாவில் சொந்தமாக பக்கா வீடு இல்லை என்பதற்கான சுய சான்றிதழ்", "வருமான சான்றிதழ்", "வங்கி கணக்கு விவரங்கள்"]
+    }
+  },
+  {
+    "id": "ujjwala",
+    "name": {
+      "en": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+      "hi": "प्रधानमंत्री उज्ज्वला योजना (पीएमयूवाई)",
+      "ta": "பிரதான் மந்திரி உஜ்வாலா யோஜனா (பிஎம்யுஒய்)"
+    },
+    "description": {
+      "en": "Provides clean cooking fuel (LPG connections) to women from below-poverty-line (BPL) households.",
+      "hi": "गरीबी रेखा से नीचे (बीपीएल) परिवारों की महिलाओं को स्वच्छ खाना पकाने का ईंधन (एलपीजी कनेक्शन) प्रदान करता है।",
+      "ta": "வறுமைக் கோட்டுக்கு கீழுள்ள குடும்பங்களைச் சேர்ந்த பெண்களுக்கு இலவச சமையல் எரிவாயு (LPG) இணைப்பு வழங்குகிறது."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 150,
+      "gender": "female",
+      "occupations": ["farmer", "gig_worker", "domestic_worker", "unemployed", "other"],
+      "max_income": 150000,
+      "needs_land": false
+    },
+    "benefits": {
+      "en": "Free first LPG cylinder, regulator, and stove connection subsidy.",
+      "hi": "पहला एलपीजी सिलेंडर, रेगुलेटर और गैस चूल्हा बिल्कुल मुफ्त।",
+      "ta": "முதல் எல்பிஜி சிலிண்டர், ரெகுலேட்டர் மற்றும் எரிவாயு அடுப்பு இலவசமாக வழங்கப்படும்."
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "RPL/BPL Ration Card", "BPL Certificate Issued by Panchayat/Municipality", "Bank Account Details"],
+      "hi": ["आधार कार्ड", "राशन कार्ड (बीपीएल)", "पंचायत/नगर पालिका द्वारा जारी बीपीएल प्रमाण पत्र", "बैंक खाता विवरण"],
+      "ta": ["ஆதார் அட்டை", "குடும்ப அட்டை (வறுமைக் கோட்டிற்கு கீழ்)", "பஞ்சாயத்து/நகராட்சி வழங்கிய பிபிஎல் சான்றிதழ்", "வங்கி கணக்கு விவரங்கள்"]
+    }
+  },
+  {
+    "id": "nrega",
+    "name": {
+      "en": "MGNREGA (National Rural Employment Guarantee)",
+      "hi": "मनरेगा (महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी)",
+      "ta": "மகாத்மா காந்தி தேசிய ஊரக வேலை உறுதித் திட்டம் (மகாத்மா காந்தி என்ஆர்இஜிஏ)"
+    },
+    "description": {
+      "en": "Guarantees 100 days of unskilled wage employment in a financial year to adult members of rural households.",
+      "hi": "ग्रामीण परिवारों के वयस्क सदस्यों को एक वित्तीय वर्ष में 100 दिनों के अकुशल मजदूरी रोजगार की गारंटी देता है।",
+      "ta": "கிராமப்புறக் குடும்பங்களில் உள்ள தகுதியுடைய நபர்களுக்கு நிதியாண்டில் 100 நாட்கள் உடல் உழைப்பு சார்ந்த வேலைவாய்ப்பை உறுதி செய்கிறது."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 150,
+      "gender": "any",
+      "occupations": ["farmer", "domestic_worker", "unemployed", "other"],
+      "max_income": 9999999,
+      "needs_land": false
+    },
+    "benefits": {
+      "en": "Guaranteed 100 days of employment at state-fixed wage rates with payout directly in bank accounts.",
+      "hi": "राज्य-निर्धारित मजदूरी दरों पर 100 दिनों के रोजगार की गारंटी, जिसका भुगतान सीधे बैंक खाते में किया जाता है।",
+      "ta": "மாநில அரசால் நிர்ணயிக்கப்பட்ட தினசரி கூலியில் 100 நாட்கள் வேலைவாய்ப்பு மற்றும் நேரடி வங்கி கணக்கு செலுத்துதல்."
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Passport Size Photograph", "Bank Account Details", "Proof of Residence (Voter ID/Ration Card)"],
+      "hi": ["आधार कार्ड", "पासपोर्ट आकार का फोटो", "बैंक खाता विवरण", "निवास का प्रमाण (वोटर आईडी/राशन कार्ड)"],
+      "ta": ["ஆதார் அட்டை", "புகைப்படம்", "வங்கி கணக்கு விவரங்கள்", "முகவரி சான்று (வாக்காளர் அடையாள அட்டை/குடும்ப அட்டை)"]
+    }
+  },
+  {
+    "id": "sukanya_samriddhi",
+    "name": {
+      "en": "Sukanya Samriddhi Yojana (SSY)",
+      "hi": "सुकन्या समृद्धि योजना (एसएसवाई)",
+      "ta": "சுகன்யா சம்ரித்தி யோஜனா (பெண் குழந்தை சேமிப்புத் திட்டம்)"
+    },
+    "description": {
+      "en": "A small deposit savings scheme for the girl child, offering high-interest rates and tax benefits.",
+      "hi": "बालिकाओं के लिए एक लघु जमा बचत योजना, जिसमें उच्च ब्याज दर और कर लाभ प्रदान किए जाते हैं।",
+      "ta": "பெண் குழந்தைகளின் கல்வி மற்றும் எதிர்காலத்திற்கான அதிக வட்டி வழங்கும் சிறு சேமிப்புத் திட்டம்."
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 10,
+      "gender": "female",
+      "occupations": ["unemployed", "other"],
+      "max_income": 9999999,
+      "needs_land": false
+    },
+    "benefits": {
+      "en": "High compound interest rate (8.2%+) on savings, tax-exempt under Section 80C, matures on age 21.",
+      "hi": "बचत पर उच्च चक्रवृद्धि ब्याज दर (8.2%+), धारा 80C के तहत कर-मुक्त, 21 वर्ष की आयु में परिपक्व।",
+      "ta": "சேமிப்பிற்கு அதிக கூட்டு வட்டி (8.2%+), பிரிவு 80C-ன் கீழ் வரி விலக்கு, 21 வயதில் முதிர்வடையும்."
+    },
+    "documents": {
+      "en": ["Birth Certificate of Girl Child", "Identity Proof of Parent/Guardian (Aadhaar/PAN)", "Address Proof of Parent/Guardian"],
+      "hi": ["बालिका का जन्म प्रमाण पत्र", "माता-पिता/अभिभावक का पहचान पत्र (आधार/पैन)", "माता-पिता/अभिभावक का निवास प्रमाण"],
+      "ta": ["பெண் குழந்தையின் பிறப்பு சான்றிதழ்", "பெற்றோர்/காப்பாளரின் அடையாள சான்று (ஆதார்/பான் கார்டு)", "பெற்றோர்/காப்பாளரின் முகவரி சான்று"]
+    }
+  },
+  {
+    "id": "shram_yogi",
+    "name": {
+      "en": "PM Shram Yogi Maan-dhan (PM-SYM)",
+      "hi": "प्रधानमंत्री श्रम योगी मान-धन (पीएम-एसवाईएम)",
+      "ta": "பிஎம் ஷ்ரம் யோகி மான்-தன் (பிஎம்-எஸ்ஒய்எம்)"
+    },
+    "description": {
+      "en": "A voluntary and co-contributory pension scheme for unorganized workers like street vendors, rickshaw pullers, domestic workers.",
+      "hi": "रेहड़ी-पटरी वालों, रिक्शा चालकों, घरेलू कामगारों जैसे असंगठित कामगारों के लिए एक स्वैच्छिक और सह-अंशादयी पेंशन योजना।",
+      "ta": "தெரு வியாபாரிகள், ரிக்ஷா இழுப்பவர்கள், வீட்டுப் பணியாளர்கள் போன்ற ஒழுங்கமைக்கப்படாத தொழிலாளர்களுக்கான பங்களிப்பு ஓய்வூதியத் திட்டம்."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 40,
+      "gender": "any",
+      "occupations": ["gig_worker", "domestic_worker", "other"],
+      "max_income": 180000,
+      "needs_land": false
+    },
+    "benefits": {
+      "en": "Assured pension of ₹3,000 per month after reaching the age of 60.",
+      "hi": "60 वर्ष की आयु पूरी होने के बाद ₹3,000 प्रति माह की सुनिश्चित पेंशन।",
+      "ta": "60 வயதை அடைந்த பிறகு மாதந்தோறும் ₹3,000 உறுதியான ஓய்வூதியம் வழங்கப்படும்."
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Savings Bank Account (IFSC Code)", "Consent Form for Auto-debit from Savings Account"],
+      "hi": ["आधार कार्ड", "बचत बैंक खाता (आईएफएससी कोड)", "बचत खाते से ऑटो-डेबिट के लिए सहमति पत्र"],
+      "ta": ["ஆதார் அட்டை", "வங்கி சேமிப்புக் கணக்கு விவரங்கள் (IFSC குறியீடு)", "வங்கி கணக்கில் இருந்து தானாகவே பிடித்தம் செய்வதற்கான ஒப்புதல் படிவம்"]
+    }
+  },
+  {
+    "id": "matru_vandana",
+    "name": {
+      "en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+      "hi": "प्रधानमंत्री मातृ वंदना योजना (पीएमएमवीवाई)",
+      "ta": "பிரதான் மந்திரி மாத்ரு வந்தனா யோஜனா (பிஎம்எம்விஒய்)"
+    },
+    "description": {
+      "en": "Maternity benefit scheme for pregnant and lactating mothers for the first live birth to offset wage loss.",
+      "hi": "गर्भवती और स्तनपान कराने वाली माताओं के लिए पहली बार मां बनने पर मजदूरी के नुकसान की भरपाई के लिए मातृत्व लाभ योजना।",
+      "ta": "கர்ப்பிணிப் பெண்கள் மற்றும் பாலூட்டும் தாய்மார்களின் முதல் பிரசவத்திற்கு ஊதிய இழப்பை ஈடுசெய்ய வழங்கும் மகப்பேறு நலத் திட்டம்."
+    },
+    "eligibility_rules": {
+      "min_age": 19,
+      "max_age": 50,
+      "gender": "female",
+      "occupations": ["farmer", "gig_worker", "domestic_worker", "unemployed", "other"],
+      "max_income": 9999999,
+      "needs_land": false
+    },
+    "benefits": {
+      "en": "Direct cash incentive of ₹5,000 paid in three installments linked to pregnancy registration, ANC checkups, and child immunization.",
+      "hi": "गर्भावस्था पंजीकरण, प्रसव पूर्व जांच और बच्चे के टीकाकरण से जुड़े तीन किस्तों में ₹5,000 का सीधा नकद प्रोत्साहन।",
+      "ta": "கர்ப்ப பதிவு, பரிசோதனைகள் மற்றும் குழந்தைக்கு தடுப்பூசி போடுதல் ஆகியவற்றுடன் தொடர்புடைய ₹5,000 நேரடி ரொக்க உதவி."
+    },
+    "documents": {
+      "en": ["Mother and Child Protection (MCP) Card", "Identity Proof of Mother (Aadhaar)", "Bank Account Passbook", "Husband's Aadhaar Card"],
+      "hi": ["मां और बच्चा संरक्षण (एमसीपी) कार्ड", "मां का पहचान प्रमाण (आधार)", "बैंक खाता पासबुक", "पति का आधार कार्ड"],
+      "ta": ["தாய் சேய் பாதுகாப்பு அட்டை (MCP Card)", "தாயின் அடையாளச் சான்று (ஆதார்)", "வங்கி கணக்கு புத்தக நகல்", "கணவரின் ஆதார் அட்டை"]
+    }
+  },
+  {
+    "id": "mudra_yojana",
+    "name": {
+      "en": "Pradhan Mantri Mudra Yojana (PMMY)",
+      "hi": "प्रधानमंत्री मुद्रा योजना (पीएमएमवाई)",
+      "ta": "பிரதான் மந்திரி முத்ரா யோஜனா (பிஎம்எம்ஒய்)"
+    },
+    "description": {
+      "en": "Offers collateral-free business loans up to ₹10 Lakhs to non-corporate, non-farm small/micro enterprises.",
+      "hi": "गैर-कॉरपोरेट, गैर-कृषि लघु/सूक्ष्म उद्यमों को ₹10 लाख तक के संपार्श्विक-मुक्त व्यापार ऋण प्रदान करता है।",
+      "ta": "சிறு, குறு மற்றும் நடுத்தர தொழில் முனைவோருக்கு பிணையில்லா வணிகக் கடன் ₹10 லட்சம் வரை வழங்குகிறது."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 65,
+      "gender": "any",
+      "occupations": ["farmer", "gig_worker", "domestic_worker", "other"],
+      "max_income": 9999999,
+      "needs_land": false
+    },
+    "benefits": {
+      "en": "Loans categorised in Shishu (up to ₹50k), Kishor (up to ₹5L), and Tarun (up to ₹10L) with low interest rates.",
+      "hi": "शिशु (₹50k तक), किशोर (₹5L तक), और तरुण (₹10L तक) श्रेणियों में कम ब्याज दरों पर ऋण।",
+      "ta": "சிசு (₹50,000 வரை), கிஷோர் (₹5 லட்சம் வரை) மற்றும் தருண் (₹10 லட்சம் வரை) என குறைந்த வட்டியில் மூன்று பிரிவுகளில் கடன்."
+    },
+    "documents": {
+      "en": ["Mudra Application Form", "Business Plan or Proof of Business", "Aadhaar Card/PAN Card", "Identity and Address Proofs", "Quotations of machinery/items to purchase"],
+      "hi": ["मुद्रा आवेदन पत्र", "बिजनेस प्लान या बिजनेस का प्रमाण", "आधार कार्ड/पैन कार्ड", "पहचान और पते का प्रमाण", "खरीदे जाने वाले उपकरणों/सामग्री का कोटेशन"],
+      "ta": ["முத்ரா விண்ணப்பப் படிவம்", "தொழில் திட்டம் அல்லது தொழில் நடத்துவதற்கான சான்று", "ஆதார் அட்டை/பான் கார்டு", "அடையாள மற்றும் முகவரி சான்றுகள்", "வாங்க வேண்டிய இயந்திரங்கள்/பொருட்களின் விலைப்பட்டியல்"]
+    }
+  },
+  {
+    "id": "atal_pension",
+    "name": {
+      "en": "Atal Pension Yojana (APY)",
+      "hi": "अटल पेंशन योजना (एपीवाई)",
+      "ta": "அடல் பென்ஷன் யோஜனா (ஏபிஒய்)"
+    },
+    "description": {
+      "en": "A pension scheme aimed at creating a social security system for all citizens, especially focusing on workers in the unorganized sector.",
+      "hi": "सभी नागरिकों के लिए एक सामाजिक सुरक्षा प्रणाली बनाने के उद्देश्य से शुरू की गई पेंशन योजना, विशेष रूप से असंगठित क्षेत्र के श्रमिकों पर केंद्रित।",
+      "ta": "அனைத்து குடிமக்களுக்கும், குறிப்பாக ஒழுங்கமைக்கப்படாத துறையில் உள்ள தொழிலாளர்களுக்கு சமூகப் பாதுகாப்பு அளிக்கும் ஓய்வூதியத் திட்டம்."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 40,
+      "gender": "any",
+      "occupations": ["farmer", "gig_worker", "domestic_worker", "unemployed", "other"],
+      "max_income": 9999999,
+      "needs_land": false
+    },
+    "benefits": {
+      "en": "Guaranteed minimum pension of ₹1,000 to ₹5,000 per month after age 60, based on contributions.",
+      "hi": "योगदान के आधार पर 60 वर्ष की आयु के बाद ₹1,000 से ₹5,000 प्रति माह की न्यूनतम गारंटीकृत पेंशन।",
+      "ta": "பங்களிப்பின் அடிப்படையில் 60 வயதிற்குப் பிறகு மாதந்தோறும் ₹1,000 முதல் ₹5,000 வரை குறைந்தபட்ச ஓய்வூதியம்."
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Mobile Number", "Savings Bank Account (IFSC Code)", "Nominee Details"],
+      "hi": ["आधार कार्ड", "मोबाइल नंबर", "बचत बैंक खाता (आईएफएससी कोड)", "नामांकित व्यक्ति (नॉमिनी) का विवरण"],
+      "ta": ["ஆதார் அட்டை", "கைபேசி எண்", "வங்கி சேமிப்புக் கணக்கு விவரங்கள் (IFSC)", "வாரிசுதாரர் (Nominee) விவரங்கள்"]
+    }
+  }
+]
