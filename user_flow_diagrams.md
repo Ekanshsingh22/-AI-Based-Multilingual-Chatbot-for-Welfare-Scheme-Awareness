@@ -43,8 +43,7 @@ graph TD
 
 ```mermaid
 graph TD
-    Start([User Initiates Chat: 'கர்ப்பிணி உதவி' - Pregnant Aid]) --> LangCheck{Language Selector}
-    LangCheck -->|Tamil| LoadTamil[Load Tamil Lang Engine]
+Start["User Initiates Chat - Pregnant Aid"] --> LangCheck{"Language Selector"}    LangCheck -->|Tamil| LoadTamil[Load Tamil Lang Engine]
     LoadTamil --> ProfileExtract[Extract Implicit Query Intent]
     ProfileExtract --> DetectPMMVY[Map to PMMVY / Ujjwala]
     DetectPMMVY --> InitQuestions[Guided Questions in Tamil]
@@ -59,8 +58,17 @@ graph TD
     MatchEngine --> Match3[Match: Ayushman Bharat - Free Medical]
     
     Match1 & Match2 & Match3 --> UnionDocs[Union Document Extraction]
-    UnionDocs --> OutputChecklist[Tamil Output Checklist:\n1. தாய் சேய் பாதுகாப்பு அட்டை (MCP Card)\n2. தாயின் ஆதார் அட்டை\n3. வங்கி புத்தக நகல்\n4. கணவர் ஆதார் அட்டை]
-    OutputChecklist --> Actions[Actions: SMS / Local Anganwadi Guidance]
+    UnionDocs --> OutputChecklist["Tamil Output Checklist"]
+
+OutputChecklist --> Doc1["MCP Card"]
+OutputChecklist --> Doc2["Mother Aadhaar Card"]
+OutputChecklist --> Doc3["Bank Passbook Copy"]
+OutputChecklist --> Doc4["Husband Aadhaar Card"]
+
+Doc1 --> Actions["SMS and Local Anganwadi Guidance"]
+Doc2 --> Actions
+Doc3 --> Actions
+Doc4 --> Actions
 ```
 
 ---
