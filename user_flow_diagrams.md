@@ -43,33 +43,37 @@ graph TD
 
 ```mermaid
 graph TD
-Start["User Initiates Chat - Pregnant Aid"] --> LangCheck{"Language Selector"}    LangCheck -->|Tamil| LoadTamil[Load Tamil Lang Engine]
-    LoadTamil --> ProfileExtract[Extract Implicit Query Intent]
-    ProfileExtract --> DetectPMMVY[Map to PMMVY / Ujjwala]
-    DetectPMMVY --> InitQuestions[Guided Questions in Tamil]
-    
-    InitQuestions --> GetAge[Verify Daughter's Age: 19]
-    GetAge --> GetIncome[Verify Family Income: 75,000/yr]
-    GetIncome --> GetGender[Confirm Gender: Female]
-    
-    GetGender --> MatchEngine[RAG Eligibility Engine]
-    MatchEngine --> Match1[Match: PMMVY - ₹5,000 Cash Incentive]
-    MatchEngine --> Match2[Match: PM Ujjwala Yojana - Free Gas]
-    MatchEngine --> Match3[Match: Ayushman Bharat - Free Medical]
-    
-    Match1 & Match2 & Match3 --> UnionDocs[Union Document Extraction]
-    UnionDocs --> OutputChecklist["Tamil Output Checklist"]
 
-OutputChecklist --> Doc1["MCP Card"]
-OutputChecklist --> Doc2["Mother Aadhaar Card"]
-OutputChecklist --> Doc3["Bank Passbook Copy"]
-OutputChecklist --> Doc4["Husband Aadhaar Card"]
+A[User Starts Chat] --> B{Language Selection}
 
-Doc1 --> Actions["SMS and Local Anganwadi Guidance"]
-Doc2 --> Actions
-Doc3 --> Actions
-Doc4 --> Actions
+B -->|Tamil| C[Load Tamil Language]
+C --> D[Extract User Intent]
+
+D --> E[Detect PMMVY Eligibility]
+E --> F[Ask Guided Questions]
+
+F --> G[Verify Daughter Age]
+G --> H[Verify Family Income]
+H --> I[Verify Gender]
+
+I --> J[RAG Eligibility Engine]
+
+J --> K[PMMVY Match]
+J --> L[PM Ujjwala Match]
+J --> M[Ayushman Bharat Match]
+
+K --> N[Generate Document Checklist]
+L --> N
+M --> N
+
+N --> O[Send SMS Guidance]
+N --> P[Provide Anganwadi Guidance]
+
+O --> Q[Application Completed]
+P --> Q
 ```
+    
+   
 
 ---
 
