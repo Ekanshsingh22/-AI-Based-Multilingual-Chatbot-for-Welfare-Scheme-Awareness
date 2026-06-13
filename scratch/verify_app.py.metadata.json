@@ -1,5 +1,0 @@
-{
-  "artifactType":  "ARTIFACT_TYPE_OTHER",
-  "summary":  "A verification script (verify_app.py) to check the structural integrity of schemes.json, ensuring all required schemes, language translations, and keys are correctly defined.",
-  "updatedAt":  "2026-06-13T07:09:56.028181100Z"
-}
